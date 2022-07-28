@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+body {
+    margin: 10px;
+    border: solid 1px #00000045;
+    padding: 20px;
+}
+
+.first-pic{
+    height: 40vh;
+    width: auto;
+    background: linear-gradient(rgb(142 0 23 / 45%), rgb(134 0 0 / 50%)), url(image.jpg);
+    background-size: cover;
+}
+
+.section-2{
+    background-color: #122333;
+    height: 380px;
+    max-width: 18vw;
+    border-radius: 2px;
+    color: white;
+    padding: 18px;
+    margin-top: -120px;
+    margin-left: 85px;
+    }
+
+.section-2 .overflow-box h1{
+    font-size: 3.5vw;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.section-2 .overflow-box h1:after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    left: 0px;
+    bottom: -16px;
+}
+
+.section-2 .overflow-box .text-box{
+    height: 100px;
+    display: block;
+    margin: 20px 10px;
+}
+
+.section-2 .overflow-box .text-box h3{
+    padding: 5px;
+}
+
+.section-2 .overflow-box .button-register{
+    background-color: #ed4c21;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    width: 135px;
+    cursor: pointer;
+}
+
+.right-box{
+    display: inline-block;
+    justify-content: flex-end;
+    border: 1px solid red;
+    position: absolute;
+    right: 8vw;
+    top: 365px;
+    width: 50vw;
+}
+
+.right-box p{
+    padding: 20px;
+    line-height: 35px;
+} 
+
+.section-3{
+    display: flex;
+    justify-content: center;
+}
+
+.section-3 .box{
+    background-color: #e8f7fc;
+    margin: 20px;
+    height: 300px;
+    border: solid 1px red;
+    padding: 20px;
+}
+ 
+.section-3 .box .num{
+    color: #ed5b34;
+    font-size: 40px;
+}
+
+.section-3 .box h1{
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.section-3 .box h3{
+    line-height: 30px;
+    width: 256px;
+    margin-bottom: 20px;
+}
+
+.section-3 .box .link{
+    text-decoration: none;
+    color: #ec6034;
+}
+
+.footer{
+    background: linear-gradient(rgb(21 35 45 / 80%), rgb(32 46 54 / 85%)), url(download.jpg);
+    background-size: cover;
+    padding: 40px;
+}
+
+.footer .left-box{
+    height: 300px;
+    width: 535px;
+    display: inline-block;
+    flex-direction: column;
+    padding: 25px;
+    color: white;
+}
+
+.footer .left-box .foo-titlo{
+    padding: 20px 0 50px;
+    font-size: 30px;
+    position: relative;
+}
+
+.footer .left-box .foo-titlo::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    left: 0px;
+    bottom: 25px;
+}
+
+.footer .left-box .paragrafe{
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.footer .left-box .foo-btn{
+    width: 150px;
+    height: 42px;
+    background-color: #ed5b34;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer .right-box-foo{
+    background-image: url(footer.jpg);
+    height: 350px;
+    width: 426px;
+    display: inline-block;
+    background-size: cover;
+    position: absolute;
+    right: 190px;
+}
+
+
+
+
+
+
+
